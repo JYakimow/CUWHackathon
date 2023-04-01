@@ -6,7 +6,10 @@
   --orange: #EB5757;
   --green: #65c819;
   --red: #c8192a;
+  --falcon-yellow: #faa634;
   --falcon_blue: #005596;
+  --litman-pink: #fab1ed;
+  
   --font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
@@ -125,7 +128,7 @@ svg {
 .subscribe-btn,
 .collect-btn,
 .middleware-btn {
-  background: #fdf5f2;
+  background: --ba;
   border: 1px solid rgba(235, 87, 87, 0.3);
   box-shadow: 0px 1px 2px rgb(15 15 15 / 10%);
   border-radius: 50px;
@@ -142,7 +145,7 @@ svg {
 .post-btn,
 .set-essence-btn,
 .set-subscribe-btn {
-  background: var(--orange);
+  background: var(--falcon-yellow);
   border: 1px solid rgba(235, 87, 87, 0.3);
   box-shadow: 0px 1px 2px rgb(15 15 15 / 10%);
   border-radius: 50px;
