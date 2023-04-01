@@ -7,6 +7,7 @@
   --green: #65c819;
   --red: #c8192a;
   --falcon_blue: #005596;
+  --baby_blue: #aaccff;
   --font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
@@ -16,7 +17,7 @@ html {
 
 html,
 body {
-  background-color: var(--white);
+  background-color: var(--baby_blue);
   padding: 0;
   margin: 0;
   font-family: var(--font-family);
