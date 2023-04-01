@@ -47,6 +47,14 @@ const Navbar = () => {
 						{<FiSettings />}
 					</div>
 				</Link>
+				<Link href="/settings">
+					<div
+						className={`navbar-link ${router.pathname === "/settings" && "active"
+							}`}
+					>
+						{<FiSettings />}
+					</div>
+				</Link>
 				<hr></hr>
 				<button className="create-btn center" onClick={handleOnClick}>
 					{<MdHistoryEdu />}
