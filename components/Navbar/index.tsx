@@ -1,6 +1,8 @@
 import { useContext } from "react";
 import Link from "next/link";
 import { IoSparklesOutline } from "react-icons/io5";
+import { IoPersonSharp } from "react-icons/io5";
+
 import { FiSettings } from "react-icons/fi";
 import { MdOutlineDashboard } from "react-icons/md";
 import { MdHistoryEdu } from "react-icons/md";
@@ -47,12 +49,21 @@ const Navbar = () => {
 						{<FiSettings />}
 					</div>
 				</Link>
+<<<<<<< Updated upstream
 				<Link href="/settings">
 					<div
 						className={`navbar-link ${router.pathname === "/settings" && "active"
 							}`}
 					>
 						{<FiSettings />}
+=======
+				<Link href="/posts">
+					<div
+						className={`navbar-link ${router.pathname === "/posts" && "active"
+							}`}
+					>
+						{<IoPersonSharp />}
+>>>>>>> Stashed changes
 					</div>
 				</Link>
 				<hr></hr>
@@ -65,3 +76,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
