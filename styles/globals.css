@@ -91,7 +91,7 @@ svg {
 
 /* NAVBAR */
 .navbar {
-  background-color: var(--white);
+  background-color: var(--falcon_blue);
   border-right: 1px solid var(--gray);
   flex-direction: column;
   display: flex;
