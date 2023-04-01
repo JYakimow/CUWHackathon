@@ -41,7 +41,7 @@ const Navbar = () => {
 						{<IoSparklesOutline />}
 					</div>
 				</Link>
-				<Link href="https://www.youtube.com/watch?v=xJp_MMo4FTA">
+				<Link href="https://www.youtube.com/watch?v=o-YBDTqX_ZU">
 					<div
 						className={`navbar-link ${router.pathname === "/settings" && "active"
 							}`}
@@ -49,7 +49,7 @@ const Navbar = () => {
 						{<FiSettings />}
 					</div>
 				</Link>
-				<Link href="/gonzales">
+				<Link href="/posts">
 					<div
 						className={`navbar-link ${router.pathname === "/posts" && "active"
 							}`}
