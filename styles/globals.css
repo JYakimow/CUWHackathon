@@ -8,6 +8,7 @@
   --red: #c8192a;
   --falcon-yellow: #faa634;
   --falcon_blue: #005596;
+  --baby_blue: #aaccff;
   
   --font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
@@ -127,11 +128,11 @@ svg {
 .subscribe-btn,
 .collect-btn,
 .middleware-btn {
-  background: #fdf5f2;
-  border: 1px solid rgba(235, 87, 87, 0.3);
+  background: var(--baby_blue);
+  border: 1px solid var(--black);
   box-shadow: 0px 1px 2px rgb(15 15 15 / 10%);
   border-radius: 50px;
-  color: var(--orange);
+  color: var(--falcon_blue);
   cursor: pointer;
   font-size: 18px;
   width: 100%;
