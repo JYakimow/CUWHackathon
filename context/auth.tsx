@@ -18,6 +18,7 @@ import {
 import { useCancellableQuery } from "../hooks/useCancellableQuery";
 import { timeout } from "../helpers/functions";
 import { useLazyQuery } from "@apollo/client";
+import SigninBtn from "../components/Buttons/SigninBtn";
 
 export const AuthContext = createContext<IAuthContext>({
 	address: undefined,
@@ -363,7 +364,7 @@ export const AuthContextProvider = ({ children }: { children: ReactNode }) => {
 			throw error;
 		}
 	};
-
+	const doNothing = async() =>{};
 	/* Function to check if the network is the correct one */
 	const checkNetwork = async (provider: Web3Provider) => {
 		
@@ -379,11 +380,12 @@ export const AuthContextProvider = ({ children }: { children: ReactNode }) => {
 					{
 						
 						chainId:
-							//"0x" + Number(process.env.NEXT_PUBLIC_CHAIN_ID)?.toString(16),
-							"0x61",
+							"0x" + Number(process.env.NEXT_PUBLIC_CHAIN_ID)?.toString(16),
+							//"0x61",
 							
 					},
 				]);
+				
 				console.log(network.chainId);
 				/* Trigger a page reload */
 				window.location.reload();
