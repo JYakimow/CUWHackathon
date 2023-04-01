@@ -6,8 +6,9 @@
   --orange: #EB5757;
   --green: #65c819;
   --red: #c8192a;
+  --falcon-yellow: #faa634;
   --falcon_blue: #005596;
-  --baby_blue: #aaccff;
+  
   --font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
@@ -17,7 +18,7 @@ html {
 
 html,
 body {
-  background-color: var(--baby_blue);
+  background-color: var(--white);
   padding: 0;
   margin: 0;
   font-family: var(--font-family);
@@ -91,7 +92,7 @@ svg {
 
 /* NAVBAR */
 .navbar {
-  background-color: var(--falcon_blue);
+  background-color: var(--white);
   border-right: 1px solid var(--gray);
   flex-direction: column;
   display: flex;
