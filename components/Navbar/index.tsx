@@ -49,21 +49,12 @@ const Navbar = () => {
 						{<FiSettings />}
 					</div>
 				</Link>
-<<<<<<< Updated upstream
-				<Link href="/settings">
-					<div
-						className={`navbar-link ${router.pathname === "/settings" && "active"
-							}`}
-					>
-						{<FiSettings />}
-=======
 				<Link href="/posts">
 					<div
 						className={`navbar-link ${router.pathname === "/posts" && "active"
 							}`}
 					>
 						{<IoPersonSharp />}
->>>>>>> Stashed changes
 					</div>
 				</Link>
 				<hr></hr>
