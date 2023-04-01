@@ -370,19 +370,20 @@ export const AuthContextProvider = ({ children }: { children: ReactNode }) => {
 		try {
 			/* Get the network from the provider */
 			const network = await provider.getNetwork();
-			console.log(process.env.NEXT_PUBLIC_CHAIN_ID);
+			console.log(Number(process.env.NEXT_PUBLIC_CHAIN_ID));
 			/* Check if the network is the correct one */
 			if (network.chainId !== (Number(process.env.NEXT_PUBLIC_CHAIN_ID) || 0)) {
 				
 				/* Switch network if the chain id doesn't correspond to Goerli Testnet Network */
-				await provider.send("wallet_switchEthereumChain", [
+				/*await provider.send("wallet_switchEthereumChain", [
 					{
+						
 						chainId:
 							"0x" + Number(process.env.NEXT_PUBLIC_CHAIN_ID)?.toString(16),
 							
 							
 					},
-				]);
+				]);*/
 				console.log(network.chainId);
 				/* Trigger a page reload */
 				window.location.reload();
