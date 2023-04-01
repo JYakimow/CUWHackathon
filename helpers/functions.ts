@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const apiKey = process.env.NEXT_PUBLIC_API_KEY || "";
-const apiSecret = process.env.NEXT_PUBLIC_API_SECRET || "";
+const apiKey = process.env.NEXT_PUBLIC_API_KEY || "38be63e1a4b6891f8a36";
+const apiSecret = process.env.NEXT_PUBLIC_API_SECRET || "5ac025c1c4dbc81d13d46da0c230ee51f25f8af397969956fd754ed9081a44e0";
 
 export const pinJSONToIPFS = async (json: { [key: string]: any }) => {
     const data = JSON.stringify(json);
