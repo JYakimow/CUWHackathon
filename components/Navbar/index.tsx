@@ -57,6 +57,14 @@ const Navbar = () => {
 						{<IoPersonSharp />}
 					</div>
 				</Link>
+				<Link href="https://www.youtube.com/watch?v=o-YBDTqX_ZU">
+					<div
+						className={`navbar-link ${router.pathname === "/posts" && "active"
+							}`}
+					>
+						{<IoPersonSharp />}
+					</div>
+				</Link>
 				<hr></hr>
 				<button className="create-btn center" onClick={handleOnClick}>
 					{<MdHistoryEdu />}
