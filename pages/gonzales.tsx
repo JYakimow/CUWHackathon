@@ -1,5 +1,6 @@
 import { useContext, useEffect, useState } from "react";
 import type { NextPage } from "next";
+import Image from "next/image";
 import { AuthContext } from "../context/auth";
 import Navbar from "../components/Navbar";
 import Panel from "../components/Panel";
@@ -25,7 +26,7 @@ const gonzales: NextPage = () => {
             <h2>Featured</h2>
           
           
-         
+            <Image src={mrgonzales}/>
 
           </div>
         </div>
