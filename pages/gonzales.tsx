@@ -24,7 +24,7 @@ const gonzales: NextPage = () => {
           <div className="posts">
             <h2>Featured</h2>
           
-          
+          <h1>This would be a picture of Mr. Gonzales. Except that Node.JS would not let it be./n </h1>
          
 
           </div>
