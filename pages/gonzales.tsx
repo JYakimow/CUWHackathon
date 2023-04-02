@@ -24,7 +24,7 @@ const gonzales: NextPage = () => {
           <div className="posts">
             <h2>Featured</h2>
 
-          <img src={mrgonzales } alt="Mr. Gonzales" />
+          <img src={mrgonzales} alt="Mr. Gonzales" />
           <img src={'/public/images/${test.jpeg}'} alt="please work!" />    
           <h></h>
 
